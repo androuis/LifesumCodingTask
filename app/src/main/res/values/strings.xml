@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LifesumCodingTask</string>
+    <string name="loading">Loading. Please wait&#8230;</string>
+    <string name="product_details">Product details</string>
+
+    <!-- List strings -->
+    <string name="no_elements">No elements to be displayed</string>
+
+    <!-- Menu titles -->
+    <string name="action_save_all">Save all</string>
+    <string name="action_delete_all">Delete all</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="title_cab">Products selected: %d</string>
+
+    <!-- Tab titles -->
+    <string name="tabs_title_online">Online Products</string>
+    <string name="tabs_title_offline">Offline Products</string>
+
+</resources>

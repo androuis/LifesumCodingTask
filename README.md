@@ -8,11 +8,8 @@ To search for food, use the search from the action bar. After search returns som
 In the "Offline products" tab, only the saved items are displayed ordered alphabetically. These items can be deleted by selecting them and then pressing the delete button or by selecting "Delete all" from menu. Also, searching is possible through this items, too.
 
 For the UI, I used: view pager with tabs - I think it's the most suitable way to display the information for this case.
-
 To perform the request, I used a thread with a handler to post results to UI (found a bug: forgot to display a progress bar while the request is being made).
-
 To perform CRUD operations, I used as Sugar ORM and in order to perform save/search/delete, I used some async tasks (because these operations should be reflected on the UI).
-
 List fragments are used to display the pages of the view pager, because fragments are more powerful than views and receive lifecycle callbacks.
 
 Things to improve:

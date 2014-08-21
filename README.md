@@ -17,3 +17,4 @@ Things to improve:
 - add a star/checkmark to suggest the saved state of the item + use this element to save the item locally
 - I think I have some memory/threading issues - must do some investigations on this part
 - when selecting an item, display the information of the item as food product labels
+- display items using some criteria, eg: category, amount of proteins, etc.
